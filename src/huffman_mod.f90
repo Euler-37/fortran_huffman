@@ -336,7 +336,7 @@ contains
                end do
             end if
             do
-               if(la%interval==-1)exit
+               if(la%interval==0)exit
                k=la%popleft()
                c=this%child(k,f)
                if(this%child(0,c)==-1)then
