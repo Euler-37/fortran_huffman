@@ -1,6 +1,8 @@
 # fortran_huffman
 huffman code compression
 
+# test
+compress `fpm.F90` [fpm.txt](https://github.com/fortran-lang/fpm/releases/download/v0.10.1/fpm-0.10.1.F90)
 
 ```fortran
 program main
